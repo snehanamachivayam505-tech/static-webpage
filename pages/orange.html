@@ -1,36 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Benefits of Apple</title>
-  <link rel="stylesheet" href="../style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Benefits of Orange</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(135deg, #c2e9fb 0%, #a1c4fd 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            max-width: 700px;
+            text-align: center;
+        }
+        h1 {
+            color: #d32f2f;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        img {
+            width: 100%;
+            max-width: 450px;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.02);
+        }
+        .benefits-grid {
+            text-align: left;
+            display: grid;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .benefit-card {
+            background: #fdf2f2;
+            padding: 15px 20px;
+            border-radius: 8px;
+        }
+        .benefit-card strong {
+            color: #b71c1c;
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        .home-btn {
+            display: inline-block;
+            background-color: #333;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+        .home-btn:hover {
+            background-color: #d32f2f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>BENIFITS OF ORANGE</h1>
-    </header>
 
-    <section class="video-box">
-    <video src="../assets/ஆரஞ்சு பழத்தின் மருத்துவ பயன்கள் _ Health Benefits of orange in Tamil _ kamala orange _ health tips.mp4"
-             alt="apple video" controls width="700" height="400"></video>
-    </section>
+    <div class="container">
+        <h1>Amazing Health Benefits of Orange</h1>
+        
+        <img src="../assets/orange img.jpg" alt="Fresh Oranges">
 
-    <section class="content">
-      <ul>
-        <li>Rich in nutrients fiber, vitamin C, potassium, and antioxidants</li>
-        <li>Good for digestion  high fiber helps prevent constipation</li>
-        <li>Heart health lowers cholesterol and supports healthy blood pressure</li>
-        <li>Weight management  low in calories, keeps you full for long</li>
-        <li>Blood sugar control  helps regulate blood sugar levels</li>
-        <li>Boosts immunity  Vitamin C strengthens the immune system</li>
-      </ul>
-    </section>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <strong>1. High in Vitamin C</strong>
+                Oranges are an excellent source of Vitamin C, which protects your cells from damage and helps your body make collagen for smoother skin.
+            </div>
+            
+            <div class="benefit-card">
+                <strong>2. Immune System Support</strong>
+                Vitamin C is vital for the function of a healthy immune system, helping your body fight off viruses and everyday infections.
+            </div>
+            
+            <div class="benefit-card">
+                <strong>3. Heart Health</strong>
+                The fiber, potassium, and choline in oranges all support heart health. Potassium helps regulate blood pressure and reduces the risk of stroke.
+            </div>
+            
+            <div class="benefit-card">
+                <strong>4. Lowers Cholesterol</strong>
+                Oranges contain pectin, a soluble fiber that traps cholesterol and carries it out of the body before it's absorbed into the bloodstream.
+            </div>
+            
+            <div class="benefit-card">
+                <strong>5. Skin Protection</strong>
+                Antioxidants in oranges help protect skin from free radical damage known to cause signs of aging, keeping your skin glowing.
+            </div>
+        </div>
 
-    <footer>
-      <a href="../index.html" class="back-btn">⬅ Back to Home</a>
-    </footer>
-  </div>
+        <a href="../index.html" class="home-btn">Back to Home</a>
+    </div>
+
 </body>
 </html>

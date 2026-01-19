@@ -1,36 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Benefits of Apple</title>
-  <link rel="stylesheet" href="../style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Benefits of Apples</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+             background: linear-gradient(135deg, #c2e9fb 0%, #a1c4fd 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            max-width: 700px;
+            text-align: center;
+        }
+        h1 {
+            color: #d32f2f;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        img {
+            width: 100%;
+            max-width: 450px;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.02);
+        }
+        .benefits-grid {
+            text-align: left;
+            display: grid;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .benefit-card {
+            background: #fdf2f2;
+            padding: 15px 20px;
+            border-radius: 8px;
+        }
+        .benefit-card strong {
+            color: #b71c1c;
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        .home-btn {
+            display: inline-block;
+            background-color: #333;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+        .home-btn:hover {
+            background-color: #d32f2f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1 class="title"> Benefits of Apple</h1>
-    </header>
+    <div class="container">
+        <h1>Amazing Health Benefits of Apples</h1>
+        <img src="../assets/apple.png" alt="Fresh Red Apple">
 
-    <section class="video-box">
-      <video src="../assets/ssvid.net---7-Health-Benefits-of-Apple-Why-Are-Apples-Healthy_1080p (1).mp4" 
-             alt="apple video" controls width="700" height="400"></video>
-    </section><br><br>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <strong>1. Heart Health</strong>
+                Apples are linked to a lower risk of heart disease because they contain soluble fiber, which helps lower blood cholesterol levels.
+            </div>
+            
+            <div class="benefit-card">
+                <strong>2. Good for Weight Loss</strong>
+                Being high in fiber and water makes apples very filling. Feeling full helps you manage your appetite and reduce calorie intake.
+            </div>
+            
+            <div class="benefit-card">
+                <strong>3. Boosts Immunity</strong>
+                Apples contain Vitamin C and antioxidants that strengthen your immune system to fight off infections and illnesses.
+            </div>
+            
+            <div class="benefit-card">
+                <strong>4. Improves Digestion</strong>
+                The pectin (a type of fiber) in apples acts as a prebiotic, feeding the good bacteria in your gut and improving digestive health.
+            </div>
+            
+            <div class="benefit-card">
+                <strong>5. Brain Protection</strong>
+                Antioxidants in apples may protect your brain cells against oxidative stress, reducing the risk of Alzheimer's and Parkinson's.
+            </div>
+        </div>
 
-    <section class="content">
-      <ul>
-        <li>Rich in nutrients – fiber, vitamin C, potassium, and antioxidants</li>
-        <li>Good for digestion – high fiber helps prevent constipation</li>
-        <li>Heart health – lowers cholesterol and supports healthy blood pressure</li>
-        <li>Weight management – low in calories, keeps you full for long</li>
-        <li>Blood sugar control – helps regulate blood sugar levels</li>
-        <li>Boosts immunity – Vitamin C strengthens the immune system</li><br><br>
-      </ul>
-    </section>
+        <a href="../index.html" class="home-btn">Back to Home</a>
+    </div>
 
-    <footer>
-      <a href="./index.html" class="back-btn">⬅ Back to Home</a>
-    </footer>
-  </div>
 </body>
 </html>
